@@ -31,7 +31,7 @@ module.exports = (robot) ->
 	robot.hear /did you poop/i, (res) ->
 		res.send "NO THANK YOU!!!"
 
-	robot.hear /if he pooped/i, (res) ->
+	robot.hear /pooped/i, (res) ->
 		res.send "NO THANK YOU!!!"
 
 	robot.hear /what do you think/i, (msg) ->
