@@ -11,7 +11,16 @@ responses = [
 	"Smash it!",
 	"Kanpai!",
 	"Arigatou.",
-	"ಠ_ಠ",
+]
+
+responses2 = [
+	"o♪└|∵|┐♪└|∵|┘♪┌|∵|┘♪",
+	"ヽ(´Д｀;≡;´Д｀)ﾉ",
+	"┌(★o☆)┘♪└(★o★)┐♪┌(☆o★)┘",
+	"∑(〇Д◎ﾉ)ﾉ",
+	"o(●´ω｀●)o Yay♪",
+	"＼(^_^=^_^)／",
+	"∑(O_O；) Shock!!",
 ]
 
 tableflips = [
@@ -32,10 +41,16 @@ module.exports = (robot) ->
 		res.send "NO THANK YOU!!!"
 
 	robot.hear /pooped/i, (res) ->
-		res.send "NO THANK YOU!!!"
+		res.send "NEVER!!!"
 
 	robot.hear /what do you think/i, (msg) ->
 		msg.send msg.random responses
+
+	robot.hear /who are you/i, (res) ->
+		res.send "ಠ_ಠ""
+
+	robot.hear /how are you/i, (msg) ->
+		msg.send msg.random responses2
 
 	robot.hear /tableflip/i, (msg) ->
 		msg.emote "watches " + msg.message.user.name + msg.random tableflips
