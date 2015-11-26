@@ -33,7 +33,7 @@ tableflips = [
   " (ʘ∇ʘ)ク 彡 ┻━┻",
   " (ノÒ益Ó)ノ彡▔▔▏",
   " /(ò.ó)┛彡┻━┻",
-  " (┛◉Д◉)┛彡┻━┻"
+  " (┛◉Д◉)┛彡┻━┻",
 ]
 
 module.exports = (robot) ->
@@ -47,7 +47,7 @@ module.exports = (robot) ->
 		msg.send msg.random responses
 
 	robot.hear /who are you/i, (res) ->
-		res.send "ಠ_ಠ""
+		res.send "ಠ_ಠ"
 
 	robot.hear /how are you/i, (msg) ->
 		msg.send msg.random responses2
