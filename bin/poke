@@ -1,0 +1,2 @@
+OUT=$(curl https://ein-kun-slackbot.herokuapp.com/heroku/keepalive)
+echo "$(date) Poking hubot: response > $OUT" >> /tmp/poke.log
