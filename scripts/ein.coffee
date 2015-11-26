@@ -2,6 +2,16 @@
 responses = [
 	"Stop it Daddy!",
 	"Stop it Mommy!",
+	"Boob punch!!",
+	"Help yooouuu!",
+	"SO CUTE!",
+	"Never!!",
+	"No thank yooouuu",
+	"Crush it!",
+	"Smash it!",
+	"Kanpai!",
+	"Arigatou.",
+	"ಠ_ಠ",
 ]
 
 tableflips = [
